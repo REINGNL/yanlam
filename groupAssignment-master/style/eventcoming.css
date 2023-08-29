@@ -1,11 +1,12 @@
 body {
     margin: 0;
-    /* background-image: url(../img/bgwhite.png); */
+    background-image: url(../img/bgwhite.png);
     
-    background-position: left bottom -100px;
+   
     /* background-color: white; */
     /* background-size: cover;
-    background-position: top; */
+    background-position: top; */ 
+    background-position: left bottom -80px;
     background-repeat: no-repeat;
     zoom: 90%;
 }
@@ -232,6 +233,7 @@ body {
 @media screen and (max-width: 420px) {
     body {
         background-position-x: center;
+        background-image: none;
     }
 
     #event-title-1 {

@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    background-color: #222222;
+}
+
+.logo img {
+    width: 244px;
+    margin-top: -10px;
+    padding-bottom: 50px;
+}
+
+.sideBtn {
+    display: flex;
+    float: right;
+    padding: 20px;
+}
+
+.sidebar {
+    font-family: 'Kablammo', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 100px;
+    transition: 0.5s;
+}
+
+.sidebar div a:hover {
+    color: peru;
+}
+
+.sidebar a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 8px 8px 40px 55px;
+    font-size: 18px;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: peru;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    margin-top: -5px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    color: whitesmoke;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    color: peru;
+}
+
+.contact-container-1 {
+    display: flex;
+}
+
+.subnav {
+    font-family: 'Kablammo', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: whitesmoke;
+    padding-left: 65px;
+}
+
+.subnav-title {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 5px solid whitesmoke;
+    width: 120px;
+    padding-bottom: 20px;
+}
+
+.subnav-links {
+    display: grid;
+    padding-top: 50px;
+    gap: 30px;
+}
+
+.subnav-links a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.subnav-links a:focus {
+    color: blue;
+}
+
+.subnav-links a:hover {
+    color: brown;
+}
+
+#contact-column-2 {
+    margin-top: 90px;
+    margin-left: 200px;
+}
+
+#contact-title-1 {
+    font-family: 'Kablammo', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: whitesmoke;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 90px;
+}
+
+#contact-input-form div {
+    margin-top: 40px;
+    margin-left: 235px;
+}
+
+.input-contact {
+    color: whitesmoke;
+    width: 650px;
+    border: none;
+    font-family: 'Kablammo', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    padding: 10px 15px 10px 15px;
+    border-bottom: 3px solid whitesmoke;
+    margin-bottom: 25px;
+    background-color: transparent;
+}
+
+#send-btn {
+    font-family: 'Kablammo', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #A52A2A;
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 240px;
+}
+
+#send-btn:hover {
+    color: black;
+}
+
+.socialMenu {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    left: 47.5%;
+    bottom: 3%;
+}
+
+.social-links a img {
+    width: 40px;
+}
+
+.contact-info {
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+}
+
+.contact-links a {
+    font-family: 'Kablammo', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+.contact-links a img {
+    width: 35px;
+    padding-right: 18px;
+    vertical-align: middle;
+}
+
+.contact-info-links {
+    margin-top: 20px;
+}
